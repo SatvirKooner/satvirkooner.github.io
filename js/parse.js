@@ -5,7 +5,7 @@ $("#parse_button").click(function(){
 	//Note: Google Chrome blocks attempts to access this local json file due to security protocols.
 	//    	Either an alternative browser such as firefox or microsoft edge or the live server plugin with node.js
 
-	$.getJSON("https://api.myjson.com/bins/1gy1kt", function(data){
+	$.getJSON("https://cdn.rawgit.com/SatvirKooner/SeamlessMD/7cd4171c/js/patient.json", function(data){
 
 		// for future use purposes instead of appending the information is 
 		// completely rewritten to overwite existing data
