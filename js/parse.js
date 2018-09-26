@@ -1,9 +1,6 @@
 
 
 $("#parse_button").click(function(){
-	//Normally a request would be made to a server, however here it is retrieved from local storage
-	//Note: Google Chrome blocks attempts to access this local json file due to security protocols.
-	//    	Either an alternative browser such as firefox or microsoft edge or the live server plugin with node.js
 
 	$.getJSON("https://cdn.rawgit.com/SatvirKooner/SeamlessMD/7cd4171c/js/patient.json", function(data){
 
